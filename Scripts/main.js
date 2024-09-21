@@ -1,11 +1,11 @@
 // << Start Login Get Stated Check >>
 if (!localStorage.getItem("user-data")) {
-  window.location.href = "Pages/get-started.html";
+  window.location.href = "../get-started.html";
 } else if (
   !localStorage.getItem("loged-in") ||
   localStorage.getItem("loged-in") == "false"
 ) {
-  window.location.href = "Pages/login.html";
+  window.location.href = "../login.html";
 } else {
   // Add Welcome Msg
   const userDataObj = JSON.parse(localStorage.getItem("user-data"));
@@ -20,6 +20,6 @@ ${userDataObj.firstName}
 const logOut = document.querySelector(".log-out");
 logOut.addEventListener("click", () => {
   localStorage.setItem("loged-in", false);
-  window.location.href = "../Pages/login.html";
+  window.location.href = "../login.html";
 });
 // End logOut //>>

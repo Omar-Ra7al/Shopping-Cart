@@ -29,7 +29,7 @@ submit.addEventListener("click", () => {
       localStorage.setItem("user-data", JSON.stringify(userDataObj));
       localStorage.setItem("loged-in", false);
       // Go to Login Page
-      window.location.href = "Pages/login.html";
+      window.location.href = "../login.html";
     } else {
       // animation shake to email if is not right
       const email = document.getElementById("inputEmail4");

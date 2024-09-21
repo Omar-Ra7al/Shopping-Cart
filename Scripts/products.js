@@ -1,11 +1,11 @@
 // Check User found and login??
 if (!localStorage.getItem("user-data")) {
-  window.location.href = "Pages/get-started.html";
+  window.location.href = "../get-started.html";
 } else if (
   !localStorage.getItem("loged-in") ||
   localStorage.getItem("loged-in") == "false"
 ) {
-  window.location.href = "Pages/login.html";
+  window.location.href = "../login.html";
 }
 
 // << Start Products Page
@@ -46,7 +46,7 @@ function showProductsData() {
                         <div class="price position-absolute top0 start-50 translate-middle-x btn btn-primary">
                             ${product.price}$
                         </div>
-                        <img src="${product.image}" class="card-img-top" alt="...">
+                        <img src=".${product.image}" class="card-img-top" alt="...">
                         <div class="card-body text-ce">
                         <p class="fs-5">${product.name}</p>
                             <p class="card-text">Some quick example text to build on the card title and make up the
