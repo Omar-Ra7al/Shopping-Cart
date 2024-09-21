@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": "7",
+      "name": "Coffee Cup",
+      "image": "./Imgs/cup1.jpg",
+      "description": "Stylish coffee cup for your morning brew, featuring an ergonomic handle.",
+      "price": 15.99
+    },
+    {
+      "id": "2",
+      "name": "Smartwatch",
+      "image": "./Imgs/watch2.jpg",
+      "description": "Feature-packed smartwatch with fitness tracking and heart rate monitor.",
+      "price": 229.99
+    },
+    {
+      "id": "4",
+      "name": "Liquid Bottle",
+      "image": "./Imgs/liquid1.jpg",
+      "description": "Eco-friendly reusable bottle with durable design and leak-proof technology.",
+      "price": 24.99
+    },
+    {
+      "id": "8",
+      "name": "Running Shoes",
+      "image": "./Imgs/shose1.jpg",
+      "description": "Durable running shoes with breathable mesh and superior cushioning.",
+      "price": 89.99
+    },
+    {
+      "id": "9",
+      "name": "T-Shirt",
+      "image": "./Imgs/shirt1.jpg",
+      "description": "Comfortable and lightweight cotton T-shirt, perfect for everyday wear.",
+      "price": 19.99
+    },
+
+    {
+      "id": "3",
+      "name": "Running Shoes",
+      "image": "./Imgs/shose2.jpg",
+      "description": "Durable running shoes with breathable mesh and superior cushioning.",
+      "price": 89.99
+    },
+    {
+      "id": "5",
+      "name": "PS4 Console",
+      "image": "./Imgs/ps4.jpg",
+      "description": "PlayStation 4 console with stunning 4K resolution for a superior gaming experience.",
+      "price": 399.99
+    },
+    {
+      "id": "1",
+      "name": "Beats Wireless",
+      "image": "./Imgs/beats1.jpg",
+      "description": "High-quality wireless earbuds with noise cancellation and long battery life.",
+      "price": 149.99
+    },
+    {
+      "id": "6",
+      "name": "Luxury Watch",
+      "image": "./Imgs/watcch1.jpg",
+      "description": "Premium watch with elegant design and precision timekeeping.",
+      "price": 159.99
+    }
+  ]
+}

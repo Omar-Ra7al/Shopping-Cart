@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover a seamless shopping experience with our online store. Explore a wide range of products,
+    add to your cart, and enjoy secure checkout. Shop now for the best deals and fast delivery!">
+    <title>Shopping Cart</title>
+
+    <!-- Css link -->
+    <link href="../Styles/main.css" rel="stylesheet">
+    <link href="../Styles/global.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div class="content">
+
+        <!-- << Start Header -->
+        <header
+            class="w-100 d-flex justify-content-between align-items-center position-fixed top-0 start-0 bg-opacity-25 bg-black">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="logo fs-3 text-light d-flex align-items-center gap-3">
+                    <div
+                        class="logo-wrapper d-flex justify-content-center align-items-center rounded-pill border border-2 border-light-subtle">
+                        <i class="bi bi-cart4 fs-6"></i>
+                    </div>
+                </div>
+
+                <div class="log-out">
+                    <button class="Btn bg-danger rounded-3">
+                        <div class="sign">
+                            <i class="bi bi-box-arrow-left text-light"></i>
+                        </div>
+                        <div class="text">Logout</div>
+                    </button>
+
+                </div>
+        </header>
+        <!--  End Header // >> -->
+
+        <!-- Start Home section // >> -->
+        <section class="home pt-5">
+
+            <main class="py-5 d-flex flex-column justify-content-evenly align-content-center">
+                <div class="container">
+                    <section
+                        class="d-flex flex-column flex-md-row justify-content-center text-center justify-content-md-start gap-3 text-md-start align-items-center">
+                        <p class="welocme-msg text-capitalize text-light">Welcome <span class="user-name fw-bold">Mr
+                                ....</span>
+                            To Our
+                            Shopping
+                            Cart</p>
+                        <i class="bi bi-bag-heart-fill cart"></i>
+                    </section>
+                </div>
+
+                <div class="container mt-5">
+                    <div class="row justify-content-evenly gap-5">
+
+                        <div class="card col-md-6 p-0 position-relative border-0" style="width: 18rem;">
+                            <div class="price position-absolute top0 end-0 btn btn-primary">
+                                1999$
+                            </div>
+                            <img src="/Imgs/ps4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk
+                                    of
+                                    the card's
+                                    content.</p>
+                                <a href="./products.html" class="btn btn-primary">Shop More</a>
+                            </div>
+                        </div>
+
+                        <div class="card col-md-6 p-0 position-relative border-0" style="width: 18rem;">
+                            <div class="price position-absolute top0 end-0 btn btn-warning">
+                                299$
+                            </div>
+                            <img src="/Imgs/shose2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk
+                                    of
+                                    the card's
+                                    content.</p>
+                                <a href="./products.html" class="btn btn-primary">Shop More</a>
+                            </div>
+                        </div>
+
+                        <div class="card col-md-6 p-0 position-relative border-0" style="width: 18rem;">
+                            <div class="price position-absolute top0 end-0 btn btn-primary">
+                                39$
+                            </div>
+                            <img src="/Imgs/watch2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk
+                                    of
+                                    the card's
+                                    content.</p>
+
+                                <a href="./products.html" class="btn btn-primary">Shop More</a>
+                            </div>
+                        </div>
+
+                        <div class="card show-more col-md-6 p-0 d-flex flex-column justify-content-center align-items-center"
+                            style="width: 18rem;">
+                            <div
+                                class="icon-wrapper d-flex flex-column justify-content-center align-items-center text-center">
+                                <i class="bi bi-cart-plus fs-1"></i>
+                            </div>
+                            <a href="./products.html">
+                                <div class="card-body text-center text-capitalize">
+                                    <p class="card-text">
+                                        Click here to shop more products
+                                        in products page
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </main>
+        </section>
+        <!-- End Home section // >> -->
+
+    </div>
+
+    <script src="../Scripts/main.js" defer></script>
+</body>
+
+</html>

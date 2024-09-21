@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover a seamless shopping experience with our online store. Explore a wide range of products,
+    add to your cart, and enjoy secure checkout. Shop now for the best deals and fast delivery!">
+
+    <title>Products</title>
+
+    <!-- Css Links  -->
+    <link href="../Styles/global.css" rel="stylesheet">
+    <link href="../Styles/products.css" rel="stylesheet">
+
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="popup d-flex justify-content-center align-items-center
+                gap-3 position-fixed top-50 py-4 rounded-3">
+    </div>
+
+    <!-- Outside the content to be the obvious chiled to the body  -->
+    <div class="load-overlay d-flex justify-content-center align-items-center">
+        <div class="loading">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="content">
+        <!-- << Start Header -->
+        <header
+            class="w-100 position-sticky top-0 start-0 bg-opacity-25 bg-black d-flex justify-content-between align-items-center ">
+            <div class="container d-flex justify-content-between align-items-center ">
+                <div class="logo fs-3 text-light d-flex align-items-center gap-3">
+                    <div
+                        class="logo-wrapper d-flex justify-content-center align-items-center rounded-pill border border-2 border-light-subtle">
+                        <a class="d-flex justify-content-center align-items-center" href="./index.html">
+                            <i class="bi bi-cart4 fs-6"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cart-icon position-relative">
+                    <span class="cart-num d-flex justify-content-center align-items-center
+                    position-absolute top-0 end-0 text-light rounded-pill bg-primary fw-bold">
+                    </span>
+                    <i class="bi bi-cart2 fs-3 text-white"></i>
+                </div>
+            </div>
+        </header>
+        <!--  End Header // >> -->
+
+        <!-- << Start Products Page -->
+        <div class="container py-5">
+            <div class="title pb-5">
+                <p class="fs-3 text-white">All Categorey</p>
+            </div>
+            <div class="products row gap-5 justify-content-evenly">
+
+            </div>
+        </div>
+        <!-- End Products Page // >> -->
+
+        <!-- << Start Cart Page -->
+        <div class="cart-page">
+            <div class="container py-5">
+                <!-- Cart Products -->
+                <div class="products py-5 row gap-5 justify-content-evenly"> </div>
+                <!-- Info -->
+                <div class="cost-container bg-primary bg-opacity-50 rounded-2 text-light mb-5 fs-5 p-3 
+                    d-flex flex-column justify-content-center align-items-center">
+                    <p> Total Products <span class="products-num"></span> </p>
+                    <p>Discount : -- </p>
+                    <p> Shipping : Free </p>
+                    <p class="m-0">Total Cost : <span class="total-cost"></span> </p>
+                </div>
+            </div>
+        </div>
+        <!-- End Cart Page // >> -->
+    </div>
+    <script src="../Scripts/products.js" defer></script>
+</body>
+
+</html>
