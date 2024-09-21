@@ -30,9 +30,9 @@ submit.addEventListener("click", () => {
 
 function logIn() {
   localStorage.setItem("loged-in", true);
-  window.location.href = "../Pages/index.html";
+  window.location.href = "Pages/index.html";
 }
 
 if (localStorage.getItem("loged-in") == "true") {
-  window.location.href = "../Pages/index.html";
+  window.location.href = "Pages/index.html";
 }
